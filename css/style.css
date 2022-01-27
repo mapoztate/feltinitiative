@@ -13,6 +13,7 @@ body {
   padding: 0.5rem 0;
 }
 .top-bar a {
+  color: black;
   font-size: 1.1rem;
 }
 
