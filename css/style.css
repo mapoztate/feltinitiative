@@ -8,7 +8,7 @@ body {
 /*============= TOP BAR HEADER =============*/
 
 .top-bar {
-  background: #79587e;
+  background: #E0D2E5;
   height: 2.8rem;
   padding: 0.5rem 0;
 }
@@ -86,13 +86,13 @@ body {
 }
 .btn-danger,
 .btn-primary {
-  background-color: #79587e;
-  border: .1rem solid #79587e;
+  background-color: #926fbd;
+  border: .1rem solid #926fbd;
 }
 .btn-danger:hover,
 .btn-primary:hover {
-  background-color: #79587e;
-  border: .1rem solid #79587e;
+  background-color: #926fbd;
+  border: .1rem solid #926fbd;
 }
 
 /*===== FIXED BACKGROUND IMG =====*/
