@@ -13,7 +13,7 @@ body {
   padding: 0.5rem 0;
 }
 .top-bar a {
-  color: black;
+  color: #5b5555;
   font-size: 1.1rem;
 }
 
@@ -149,7 +149,7 @@ footer .svg-inline--fa:hover {
 
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 991.98px) {
   th {
     display: block;
     text-align: center!important;
