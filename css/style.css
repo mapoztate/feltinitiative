@@ -1,7 +1,7 @@
 /*-- Body Reset --*/
 body {
   overflow-x: hidden;
-  font-family: 'Crimson Pro', serif;
+  font-family: 'Averia Serif Libre', cursive;
   color: #000000;
 }
 
@@ -219,7 +219,7 @@ Extra (xl) large devices (large desktops, 1200px and up)
 
 #lightPurple {
   background-color:#dcb9e3;
-  color: white!important;
+  color: black!important;
 }
 
 #darkPurple {
@@ -241,6 +241,9 @@ Extra (xl) large devices (large desktops, 1200px and up)
     width: 100%;
     display: block;
   }
+  .row {
+    padding:0
+  }
   .container {
     padding-right:0%;
     padding-left:0%
@@ -252,9 +255,6 @@ Extra (xl) large devices (large desktops, 1200px and up)
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   height:100%;
 }
-
-/* Some left and right padding inside the container */
-
 
 /* Clear floats */
 .container::after, .row::after {
