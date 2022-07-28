@@ -12,6 +12,8 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<!-- Style CSS -->
 	<link rel="stylesheet" href="css/style.css">
+	<!--AOS CSS-->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
@@ -49,48 +51,25 @@
 		<div class="carousel-inner">
 			<div class="carousel-item active">
 				<img src="img/carousel/1.jpeg" alt="Slide 1" class="w-100">
-				<!--<div class="carousel-caption">
-					<div class="container">
-						<div class="row justify-content-center">
-							<div class="col-8 bg-custom d-none d-lg-block py-3 px-0">
-								<h1>PLACEHOLDER</h1>
-								<div class="border-top border-primary w-50 mx-auto my-3"> </div>
-									<h3 class = "pb-3">Complete Website Design</h3>
-									<a href="#" class="btn btn-danger bth-lg mr-2">DEMO</a>
-									<a href="#" class="btn btn-primary bth-lg ml-2">DEMO</a>
-							</div>
-						</div>
-					</div>
-				</div> -->
 			</div>
 		<!-- End Carousel Content -->
-
-
-		<!-- Previous & Next Buttons -->
-		<a href="#carousel" class="carousel-control-prev" role="button" data-slide="prev">
-			<span class="fas fa-chevron-left fa-2x"></span></a>
-
-		<a href="#carousel" class="carousel-control-next" role="button" data-slide="next">
-			<span class="fas fa-chevron-right fa-2x"></span></a>
-		<!-- End Previous & Next Buttons -->
-
-	</div>
+	</div></div>
 	<!-- End Image Carousel -->
 
 
 	<!-- Main Page Heading -->
 	
-	<div class="container"><div class="col-12 text-center mt-5 mb-5 px-5">
-		<h1 class="text-dark pt-4">OUR INITIATIVE:</h1> <br>
+	<div class="col-12 text-center mt-5 mb-5 px-5" data-aos-delay="50" data-aos="fade-up"><div class="container">
+		<h1>OUR INITIATIVE:</h1> <br>
 			<h3>We are a student-led (aged 13-fourth year of college), English-tutoring nonprofit organization whose tutors come from the US/Canada/UK and whose mission is to connect native English speakers with foreign students. Through our program, we strive to teach students skills applicable to real-life, which include the basics of conversations (and how to hold deeper-level conversations), day-to-day vocabulary words, and more. <br><br> Our aim is to work alongside students to improve their language skills and provide them with necessary language skills to thrive in the future as an organization, as mentors, and most importantly, as friends! </h3>
 	</div> </div>
 	
 	
-	<div id="darkPurple" class="col-12 text-center py-5 px-5"> <div class="container">
+	<div id="darkPurple" class="col-12 text-center py-5 px-5" data-aos-delay="150" data-aos="fade-up"> <div class="container">
 		<h1 class="text-light pt-4">“As a tutor, you will be the building block of our organization, and you will be given the opportunity to mentor a foreign student through their English-learning journey.”</h1>
 	</div> </div>
 	
-	<div class="container"><div class="col-12 text-center mt-5 mb-5 px-5">
+	<div class="container"><div class="col-12 text-center mt-5 mb-5 px-5" data-aos-delay="150" data-aos="fade-up">
 		<h1 class="text-dark pt-4">FEELING FELT?</h1>
 			<h4>If you have any shout-outs you would like to make to anyone in Felt, whether it be a friend, a tutor, or the organization as a whole, feel free to express it here! We want to shed some love to the people in the organization this upcoming year and start off with a positive start!</h4><br>
 			<a href="https://forms.gle/zvpLjYwmY5BTryq18" target="_blank" class="btn btn-primary btn-lg">Tell us!</a>
@@ -101,7 +80,7 @@
 
 	<!-- Instagram Grid -->
 	<div id="lightPurple">	
-	<div align="center"><iframe src="https://snapwidget.com/embed/982320" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:95%; height:800px" loading="lazy"></iframe></div>
+	<div align="center" data-aos-delay="150" data-aos="flip-up"><iframe src="https://snapwidget.com/embed/982320" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:95%; height:800px" loading="lazy"></iframe></div>
 	</div>
 
 
@@ -140,10 +119,8 @@
 	<!-- Font Awesome -->
 	<script src="js/all.min.js"></script>
 	<!--AOS-->
-	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-	<script>
-		AOS.init();
-	  </script>
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script> AOS.init(); </script>
 
 	<!-- End Script Source Files -->
 </body>
