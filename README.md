@@ -1,11 +1,10 @@
 # feltinitiative
 
 **things to do:**
-* install AOS library and add animations
-* implement lazy loading on pictures (specifically team + about gallery) and Instagram iframe
-* add videos
+* add impact
+* creating a testimonial section
 
 **suggestions**
-* creating a testimonial section
+
 
 
